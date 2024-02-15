@@ -18,4 +18,3 @@ class TagCreatorView:
 
         # retorno http
         return HttpResponse(status_code=200, body=formatted_response)
-     

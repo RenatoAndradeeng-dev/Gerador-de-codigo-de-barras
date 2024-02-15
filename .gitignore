@@ -1,2 +1,4 @@
-**/__Pycache__
+**/__pycache__
+.pytest_cache
 .venv
+.DS_Store

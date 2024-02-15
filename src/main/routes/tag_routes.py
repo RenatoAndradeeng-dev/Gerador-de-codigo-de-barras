@@ -14,6 +14,7 @@ def create_tags():
     try:
         tag_creator_validator(request)
         tag_creator_view = TagCreatorView()
+
         http_request = HttpRequest(body=request.json)
         response = tag_creator_view.validate_and_create(http_request)
     except Exception as exception:
